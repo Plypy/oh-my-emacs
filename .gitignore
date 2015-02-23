@@ -45,3 +45,6 @@ abbrev_defs
 
 # eshell
 eshell
+
+# session
+session.*
