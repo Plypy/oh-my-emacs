@@ -74,3 +74,15 @@ inversion of gas-comment-region"
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; EVIL stuff
+(define-key evil-normal-state-map "\C-e" 'evil-end-of-line)
+(define-key evil-normal-state-map "\C-y" 'yank)
+
+
+;; jade
+; (add-to-list 'load-path "~/.emacs.d/vendor/jade-mode")
+; (require 'sws-mode)
+; (require 'jade-mode)
+; (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
+    
